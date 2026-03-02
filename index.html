@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi Producto - La solución innovadora que estabas buscando">
+    <title>Mi Producto - Innovación y Calidad</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>Mi Producto</h2>
+            </div>
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="#hero" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#features" class="nav__link">Características</a></li>
+                <li class="nav__item"><a href="#benefits" class="nav__link">Beneficios</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__content container">
+                <h1 class="hero__title">Transforma tu vida con <span class="highlight">Mi Producto</span></h1>
+                <p class="hero__description">La solución innovadora que combina tecnología de vanguardia con diseño intuitivo para ofrecerte la mejor experiencia</p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary">Comienza Ahora</a>
+                    <a href="#features" class="btn btn--secondary">Descubre Más</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section__title">Características Principales</h2>
+                <p class="section__subtitle">Todo lo que necesitas en un solo lugar</p>
+                
+                <div class="features__grid">
+                    <article class="feature-card">
+                        <div class="feature-card__icon">⚡</div>
+                        <h3 class="feature-card__title">Rápido y Eficiente</h3>
+                        <p class="feature-card__description">Optimizado para ofrecerte el máximo rendimiento sin comprometer la calidad</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">🔒</div>
+                        <h3 class="feature-card__title">Seguro y Confiable</h3>
+                        <p class="feature-card__description">Protección avanzada de datos con encriptación de nivel empresarial</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">🎨</div>
+                        <h3 class="feature-card__title">Diseño Intuitivo</h3>
+                        <p class="feature-card__description">Interfaz moderna y fácil de usar, diseñada pensando en ti</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">🌐</div>
+                        <h3 class="feature-card__title">Acceso Universal</h3>
+                        <p class="feature-card__description">Disponible en todos tus dispositivos, en cualquier momento y lugar</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">🚀</div>
+                        <h3 class="feature-card__title">Innovación Constante</h3>
+                        <p class="feature-card__description">Actualizaciones regulares con nuevas funcionalidades y mejoras</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">💬</div>
+                        <h3 class="feature-card__title">Soporte 24/7</h3>
+                        <p class="feature-card__description">Equipo de atención al cliente siempre disponible para ayudarte</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <h2 class="section__title">¿Por qué elegir Mi Producto?</h2>
+                <div class="benefits__content">
+                    <div class="benefits__image">
+                        <div class="placeholder-image">
+                            <span>📱</span>
+                        </div>
+                    </div>
+                    <div class="benefits__list">
+                        <div class="benefit-item">
+                            <h3 class="benefit-item__title">✓ Aumenta tu productividad</h3>
+                            <p class="benefit-item__text">Ahorra tiempo y recursos con nuestras herramientas automatizadas</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h3 class="benefit-item__title">✓ Resultados garantizados</h3>
+                            <p class="benefit-item__text">Miles de usuarios satisfechos respaldan nuestra calidad</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h3 class="benefit-item__title">✓ Fácil integración</h3>
+                            <p class="benefit-item__text">Comienza en minutos, sin complicaciones ni configuraciones complejas</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h3 class="benefit-item__title">✓ Precio competitivo</h3>
+                            <p class="benefit-item__text">La mejor relación calidad-precio del mercado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section__title">Contacta con Nosotros</h2>
+                <p class="section__subtitle">¿Tienes preguntas? Estamos aquí para ayudarte</p>
+                
+                <form class="contact-form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Nombre</label>
+                        <input type="text" id="name" name="name" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--full">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">Mi Producto</h3>
+                    <p class="footer__text">Innovación y calidad desde 2026</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Enlaces</h4>
+                    <ul class="footer__links">
+                        <li><a href="#hero" class="footer__link">Inicio</a></li>
+                        <li><a href="#features" class="footer__link">Características</a></li>
+                        <li><a href="#contact" class="footer__link">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contacto</h4>
+                    <p class="footer__text">info@miproducto.com</p>
+                    <p class="footer__text">+34 123 456 789</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Mi Producto. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
